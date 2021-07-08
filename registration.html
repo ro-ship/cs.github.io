@@ -1,6 +1,10 @@
 <html>
 <body>
+
+	<form action="#" name="StudenSignupForm" onsubmit="return(validateHTMlform());">
+
 <fieldset style="background-color:skyblue;height:"100";width:"150"";>
+	
 <center>
 <h1>
 <b>
@@ -35,27 +39,40 @@ All India Chess Federation(AICF)
 <fieldset style="background-color:white;height:"400";width:"150"";>
 <center>
 <label>
-player name
+Player name
 </label>
-<input type="text" name="player name"><br>
+<input type="text" name="player name"><br><br>
 <label>
 DOB
 </label>
-<input type="number" name="DOB"><br>
+<input type="date" name="DOB"><br><br>
 <label>
+
+
+<label>
+Gender
+</label>
+<input type="radio" name="sex" value="male" size="10">Male
+<input type="radio" name="sex" value="Female" size="10">Female<br><br>
+
+<label> 
 place
 </label>
-<input type="text" name="place"><br>
+<input type="text" name="place"><br><br>
 <label>
 mobile no.
 </label>
-<input type="number" name="mobile no."><br>
+<input type="number" name="mobile no."><br><br>
 <label>
 submit query
 </label>
 <input type="text" name="submit query"><br><br>
 
-<input type="submit"name="submit query">
+
+<li><input type="reset"></li><br>
+<li colspan="2"><input type="submit" value="Submit Form" /></li>
+
+
 </center>
 </fieldset>
 <fieldset style="background-color:white;height:"70";width:"150"";>
